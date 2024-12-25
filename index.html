@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Reading Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Finance Reading Tracker</h1>
+        <p>Track your daily reading and grow your financial progress.</p>
+
+        <div class="tabs">
+            <button class="tab-btn" data-tab="tracker">Check-box</button>
+            <button class="tab-btn" data-tab="notes">Notes</button>
+            <button class="tab-btn" data-tab="books">Books</button>
+        </div>
+
+        <!-- Progress Bar -->
+        <div id="progress-bar">
+            <span id="progress-text">0 / 30</span>
+        </div>
+
+        <!-- Calendar Grid -->
+        <div id="calendar" class="calendar">
+            <!-- The grid of days will be dynamically created by JS -->
+        </div>
+
+        <!-- Reset Button -->
+        <button id="reset-btn">Reset</button>
+    </div>
+
+    <!--Notes Section Goes Here-->
+    <div id="notes" class="tab-content">
+        <textarea id="daily-notes" placeholder="Write your notes for today..."></textarea>
+        <button id="save-notes"> Save Notes</button>
+        <!-- Add a button to delete notes, initially hidden -->
+        <button id="delete-notes" style="display: none;">Delete Notes</button>
+        <div id="saved-notes"></div>
+    </div>
+
+    <!--Books Section goes here-->
+    <div id="books" class="tab-content">
+        <input id="book-input" type="text" placeholder ="Add a new book or article">
+        <button id="add-book"> Add Book</button>
+        <ul id="book-list"></ul>
+    
+    
+    </div>
+
+    <footer>
+        <p>Created by VSK | <a href="https://github.com/MadisonAiman" target="_blank">GitHub</a></p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
