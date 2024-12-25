@@ -30,8 +30,8 @@ Add New Books: Input and save a list of books or articles.
 View Saved Books: Display all saved entries in an organized list.
 Delete Options: Remove entries to keep the list up-to-date.
 
-**JavaScript Implementation Highlights:
-**
+JavaScript Implementation Highlights:
+
 
 Dynamic Calendar Creation: Automatically generates a 30-day calendar grid using JavaScript.
 Event Listeners: Enables user interactions like toggling the "read" status for days and switching between tabs.
@@ -55,15 +55,15 @@ Book Tracker:
 Switch to the "Books" tab to add new reading materials.
 View or manage your reading list with delete options for outdated entries.
 
-**Technology Stack
-**
+**Technology Stack**
+
 
 HTML: Structures the application's layout and tabs.
 CSS: Provides a professional and modern design with a finance-themed color palette.
 JavaScript: Implements functionality, interactivity, and local storage features.
 
-**Future Enhancements
-**
+**Future Enhancements**
+
 
 User Authentication: Enable cloud-based data storage and multi-device access.
 Data Visualization: Include charts to represent reading trends over time.
