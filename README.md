@@ -3,9 +3,11 @@
 The Finance Reading Tracker is a web-based application designed for finance professionals who want to stay consistent with their daily financial reading and growth goals. The app integrates a sleek progress tracker, note-taking functionality, and a book/article tracking feature, helping users stay organized and focused on their professional development.
 
 **Problem**
+
 Finance professionals struggle with maintaining consistent daily reading habits, organizing their notes, and keeping track of valuable resources like books and articles. 
 
 **Solution**
+
 The Finance Reading Tracker addresses these challenges by offering an all-in-one platform to:
 
 1. Track daily financial reading with a visual progress bar and interactive calendar.
@@ -14,6 +16,7 @@ The Finance Reading Tracker addresses these challenges by offering an all-in-one
 
 
 **Features**
+
 1. Daily Reading Progress Tracker
 Interactive Calendar: Mark days when reading is completed.
 Progress Bar: Visual representation of reading achievements, updating in real-time.
@@ -29,12 +32,14 @@ Delete Options: Remove entries to keep the list up-to-date.
 
 **JavaScript Implementation Highlights:
 **
+
 Dynamic Calendar Creation: Automatically generates a 30-day calendar grid using JavaScript.
 Event Listeners: Enables user interactions like toggling the "read" status for days and switching between tabs.
 Local Storage: Ensures notes and book lists persist between sessions, providing a seamless user experience.
 Responsive Design: Adapts functionality and layout for both desktop and mobile users.
 
 **How to Use this application:**
+
 Daily Reading Tracker:
 
 Click on any calendar day to mark it as "read."
@@ -52,12 +57,14 @@ View or manage your reading list with delete options for outdated entries.
 
 **Technology Stack
 **
+
 HTML: Structures the application's layout and tabs.
 CSS: Provides a professional and modern design with a finance-themed color palette.
 JavaScript: Implements functionality, interactivity, and local storage features.
 
 **Future Enhancements
 **
+
 User Authentication: Enable cloud-based data storage and multi-device access.
 Data Visualization: Include charts to represent reading trends over time.
 Export Options: Allow users to export notes and book lists to external files.
