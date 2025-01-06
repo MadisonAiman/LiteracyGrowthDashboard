@@ -17,6 +17,7 @@ const savedNotesDiv = document.getElementById('saved-notes'); //creates const fo
 const deleteNotesBtn = document.getElementById('delete-notes'); // Add a button to delete notes
 
 // Function to create the calendar grid
+//Treats it as 30 days (so not always a full month)
 function createCalendar() {
     for (let i = 1; i <= daysInMonth; i++) {
         const dayDiv = document.createElement('div');
@@ -77,9 +78,9 @@ tabs.forEach(tab => {
         
         // Toggle delete notes button visibility when "Notes" tab is active
         if (tab.dataset.tab === 'notes') {
-            deleteNotesBtn.style.display = 'block';
+            deleteNotesBtn.style.display = 'block'; //displays in the list as block
         } else {
-            deleteNotesBtn.style.display = 'none';
+            deleteNotesBtn.style.display = 'none'; //displays in the list as "none"; not displayed
         }
     });
 });
