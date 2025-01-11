@@ -71,7 +71,7 @@ Export Options: Allow users to export notes and book lists to external files.
 
 Credits
 
-Developed by VSK.
+Developed by VSK; MA.
 Feel free to contribute or report issues via the GitHub Repository.
 
 
